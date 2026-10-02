@@ -1,5 +1,5 @@
 # Stand ASICS · Expo Maratón Querétaro 2026
-### Medición de audiencia — resultados de la primera jornada
+### Medición de audiencia — lectura del primer día
 
 Durante la Expo Maratón del Querétaro Maratón 2026, el stand de ASICS fue
 instrumentado con medición de audiencia por visión computacional. Por primera
@@ -15,7 +15,7 @@ tres lectores distintos.
 
 | | Reporte | Para quién | La pregunta que responde |
 |---|---|---|---|
-| **01** | [**La primera mañana del stand, leída entera**](https://xpatial-ai.github.io/asics_expo_2026/01-marketing-brand.html) | Marketing · Brand ASICS México | ¿Qué significa cada indicador en lenguaje de marca y qué ajustamos antes de que cierre la expo? |
+| **01** | [**El primer día del stand, leído con los datos a la mano**](https://xpatial-ai.github.io/asics_expo_2026/01-marketing-brand.html) | Marketing · Brand ASICS México | ¿Qué significa cada indicador en lenguaje de marca y qué ajustamos antes de que cierre la expo? |
 | **02** | [**Qué compró ASICS al patrocinar la Expo Maratón**](https://xpatial-ai.github.io/asics_expo_2026/02-direccion-ejecutiva.html) | Dirección ejecutiva · Patrocinio | ¿Qué recibimos realmente por el patrocinio y qué decidimos para la edición siguiente? |
 | **03** | [**Plan de piso para el viernes, escrito desde los datos del jueves**](https://xpatial-ai.github.io/asics_expo_2026/03-operacion-stand.html) | Agencia · Operación del stand | ¿Qué cambiamos mañana en el piso, con el equipo que ya está ahí? |
 
@@ -29,20 +29,26 @@ Los enlaces abren en el navegador. No requieren instalar nada ni iniciar sesión
 
 ## Lo que midió el stand
 
-Cifras de la jornada del **2 de octubre**, leídas directamente del panel de medición:
+Cifras del **2 de octubre**, leídas del panel de medición:
 
 | | |
 |---|---|
-| **134 personas** | se detuvieron frente al stand |
-| **286 interacciones** | registradas en total — cada visitante volvió 2.1 veces en promedio |
-| **2 min 40 s** | de atención por visitante |
-| **5 h 58 min** | de atención entregada, acumuladas |
-| **49 %** | se quedó más de 15 segundos: atención real, no paso casual |
-| **79 %** | del público tiene entre 20 y 45 años — el corredor objetivo |
+| **669 personas** | se detuvieron frente al stand |
+| **≈ 1,560 interacciones** | registradas en total — cada visitante volvió 2.3 veces en promedio |
+| **≈ 1 min 36 s** | de atención por visitante |
+| **≈ 17 h 46 min** | de atención entregada, acumuladas |
+| **34 %** | se quedó más de 15 segundos: atención real, no paso casual |
+| **77 %** | del público tiene entre 20 y 45 años — el corredor objetivo |
 
-Y un dato que vale tanto como los anteriores: **38 personas se fueron antes del
-sexto segundo.** Ese es el margen de mejora más accesible del stand, y el
-reporte 03 explica dónde se está perdiendo.
+Y un dato que vale tanto como los anteriores: **279 personas —el 42 %— se fueron
+antes del sexto segundo.** Ese es el margen de mejora más accesible del stand, y
+el reporte 03 explica dónde se está perdiendo.
+
+> **Estas cifras son un piso.** El sistema sigue incorporando registros de la
+> jornada: lecturas sucesivas del mismo rango horario arrojaron volúmenes
+> crecientes a lo largo del día. La cifra definitiva se fijará con el evento
+> cerrado y los datos estabilizados. Las interacciones, además, las reporta el
+> panel redondeadas: el valor real está entre 1,550 y 1,572.
 
 ---
 
@@ -50,8 +56,8 @@ reporte 03 explica dónde se está perdiendo.
 
 - **Justificar la inversión** del stand con una cifra de atención, no con una
   estimación de aforo.
-- **Ajustar la operación** por franja horaria: el reporte 03 muestra que la
-  jornada se concentró en una ventana muy estrecha.
+- **Ajustar la operación** por franja horaria: el reporte 03 muestra dónde se
+  concentra la carga del turno y cómo repartir al equipo en consecuencia.
 - **Comparar** el patrocinio contra medios convencionales en términos de
   atención entregada, no de impresiones servidas.
 - **Dimensionar la edición siguiente** con una línea base propia de ASICS.
@@ -60,10 +66,12 @@ reporte 03 explica dónde se está perdiendo.
 
 Conviene ser claro con el alcance, porque define cómo leer las conclusiones:
 
-- La captura cubre **la jornada de mañana del primer día**, de unas 4.5 horas
-  activas: la actividad arranca cerca de las 07:00 y vuelve a cero cerca de las
-  11:30. Corte del panel: 2 de octubre, 1:10 p.m. **La tarde del jueves, el día 2
-  de expo y el domingo de carrera no están incluidos.**
+- La captura cubre **el primer día de expo, con el panel aún consolidando
+  registros**. Corte: 2 de octubre, 1:43 p.m. **El día 2 de expo y el domingo de
+  carrera no están incluidos.** Las cifras pueden revisarse al alza.
+- Por la misma razón, **no conviene comparar dos días con distinto grado de
+  consolidación**: un día ya cerrado contra otro aún cargándose exagera la
+  diferencia a favor del primero.
 - **No hubo datos de ventas, registro de leads ni costo del stand**, por lo que
   el retorno se expresa en atención y alcance cualificado, no en pesos. El
   reporte 02 declara este límite de forma explícita.
@@ -83,6 +91,7 @@ visible en el documento:
 | Etiqueta | Significa |
 |---|---|
 | **Medido** | Leído directamente del panel. Dato duro. |
+| **Estimado** | Reconstruido a partir de un valor que el panel reporta redondeado. Se declara el rango posible. |
 | **Derivado** | Calculado sobre cifras medidas, con la aritmética a la vista. |
 | **Proyección** | Supone que el ritmo observado se sostiene. Declara su supuesto. |
 | **Referencia** | Contexto de categoría. **No** es medición de este evento. |
@@ -103,8 +112,8 @@ reportes es atribuible a una persona concreta.
 
 ## Siguiente paso recomendado
 
-Lo medido hasta ahora es **una mañana**. El viernes de expo y el domingo de
-carrera concentran la mayor afluencia del calendario y todavía no están
+Lo medido hasta ahora es **un día, y todavía parcial**. El viernes de expo y el
+domingo de carrera concentran la mayor afluencia del calendario y todavía no están
 instrumentados. Extender la captura a esas dos jornadas convierte tres días
 sueltos en la curva completa del patrocinio —que es el activo que sirve para
 negociar la edición siguiente. Es el primero de los tres asuntos que plantea el
