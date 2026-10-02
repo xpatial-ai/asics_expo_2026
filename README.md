@@ -103,16 +103,18 @@ reportes es atribuible a una persona concreta.
 
 ## Siguiente paso recomendado
 
-La prueba de concepto tenía **6 días de vigencia** al momento del corte.
-Conviene **exportar el periodo completo** —día 2 de expo y domingo de carrera—
-antes de que venza, para cerrar la medición del evento entero en lugar de
-quedarnos con una sola jornada de mañana. Esa decisión es el primero de los tres
-asuntos que plantea el reporte 02.
+Lo medido hasta ahora es **una mañana**. El viernes de expo y el domingo de
+carrera concentran la mayor afluencia del calendario y todavía no están
+instrumentados. Extender la captura a esas dos jornadas convierte tres días
+sueltos en la curva completa del patrocinio —que es el activo que sirve para
+negociar la edición siguiente. Es el primero de los tres asuntos que plantea el
+reporte 02, y no admite demora: lo que no se mide el viernes no se recupera
+después.
 
 ---
 
 Medición y reportes por **Xpatial.ai** para **ASICS México**.
-Prueba de concepto · Expo Maratón Querétaro 2026.
+Expo Maratón Querétaro 2026.
 
 <sub>Nota de producción: la identidad gráfica de ASICS en estos documentos usa un
 lockup tipográfico provisional en lugar del logotipo oficial, pendiente de
