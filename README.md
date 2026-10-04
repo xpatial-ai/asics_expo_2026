@@ -35,9 +35,9 @@ evento ya terminado:
 | | |
 |---|---|
 | **7,086 personas** | se detuvieron frente al stand |
-| **≈ 18,500 interacciones** | registradas en total — cada visitante volvió 2.6 veces en promedio |
-| **≈ 47 s** | de atención por visitante |
-| **≈ 92 h 30 min** | de atención entregada, acumuladas |
+| **17,437 interacciones** | registradas en total — cada visitante volvió 2.46 veces en promedio |
+| **18 s** | de atención por visitante |
+| **36 h 24 min** | de atención entregada, acumuladas |
 | **23 %** | se quedó más de 15 segundos: 1,601 personas con atención real |
 | **80 %** | del público tiene entre 20 y 45 años — el corredor objetivo |
 
@@ -45,10 +45,10 @@ Y un dato que vale tanto como los anteriores: **3,633 personas —el 51 %— se
 fueron antes del sexto segundo.** Ese es el margen de mejora más accesible del
 stand, y el reporte 03 explica dónde se perdió.
 
-> **Estas cifras son definitivas.** Se leyeron el 4 de octubre, con los dos días
-> de expo terminados y el panel ya consolidado. No están sujetas a revisión.
-> Las interacciones las reporta el panel redondeadas (`18.5 K`): el valor real
-> está entre 18,450 y 18,550.
+> **Estas cifras son definitivas y verificables.** No provienen de la lectura de
+> un tablero, sino del conteo directo sobre el registro completo de la medición:
+> cada visitante y cada interacción es una fila con su marca de tiempo y su
+> duración. Cubren los dos días de expo, de principio a fin.
 
 > **Nota sobre cifras anteriores.** Si recibió un avance con números del 2 de
 > octubre (del orden de cientos de visitantes), quedó superado por esta lectura.
@@ -95,8 +95,7 @@ visible en el documento:
 
 | Etiqueta | Significa |
 |---|---|
-| **Medido** | Leído directamente del panel. Dato duro. |
-| **Estimado** | Reconstruido a partir de un valor que el panel reporta redondeado. Se declara el rango posible. |
+| **Medido** | Contado sobre el registro de la medición. Dato duro, verificable registro a registro. |
 | **Derivado** | Calculado sobre cifras medidas, con la aritmética a la vista. |
 | **Referencia** | Contexto de categoría. **No** es medición de este evento. |
 
@@ -117,7 +116,7 @@ reportes es atribuible a una persona concreta.
 ## Siguiente paso recomendado
 
 La activación de expo quedó medida de principio a fin. Con eso, ASICS tiene por
-primera vez una **línea base propia**: 7,086 personas y ≈ 92 h 30 min de atención
+primera vez una **línea base propia**: 7,086 personas y 36 h 24 min de atención
 sobre un público 80 % dentro del rango 20–45. Es la cifra contra la cual se puede
 evaluar la edición siguiente y la que corresponde llevar a la negociación con la
 organización del maratón.
