@@ -170,6 +170,13 @@ figcaption b{color:var(--ink);font-weight:600}
 .verdict p + p{margin-top:.9em}
 .verdict .mono{color:#9FC2FF}
 
+/* Contexto del evento: marco que no es medición, visualmente distinto */
+.context-note{background:#F4F7FB;border-left:3px solid var(--line-strong,#c9d6e6);
+  padding:20px 24px;margin:4px 0 26px}
+.context-note p{font-size:16px;color:#3C4A5C;margin:0;max-width:72ch}
+.context-note p + p{margin-top:.7em}
+.context-note b{color:var(--ink)}
+
 /* Acciones */
 .acts{counter-reset:a;margin:0;padding:0;list-style:none}
 .act{counter-increment:a;display:grid;grid-template-columns:38px 1fr;gap:20px;
@@ -358,10 +365,14 @@ footer{border-top:3px solid transparent;
 <div class="sec-h"><div class="sec-tag">Posición</div>
 <div><h2 class="sec-t">El patrocinio dejó de ser una presencia y pasó a ser una cifra</h2><p class="sec-d">Por primera vez la activación de ASICS en la Expo Maratón de Querétaro está instrumentada. Lo que antes se reportaba como "tuvimos buen flujo" ahora tiene magnitud, composición y ritmo.</p></div></div>
 <div class="body"><div class="sec-tag"></div><div>
+<div class="context-note">
+  <p><b>Qué se patrocinó, exactamente.</b> 19,500 corredores inscritos en cuatro distancias (5, 10, 21 y 42 km), con entrega de kit concentrada en los dos días de expo. ASICS ocupó un espacio de 3 zonas y, por primera vez, <b>diseñó y vistió la playera oficial del evento</b>. La carrera del domingo se corrió bajo lluvia; la expo, los dos días previos, transcurrió sin incidencias de clima.</p>
+</div>
+
 <div class="verdict">
-  <h3>El stand entregó cerca de 36 horas de atención humana sostenida a la marca.</h3>
-  <p>Esa atención provino de <strong style="color:#fff">7,086 personas distintas</strong> que generaron cerca de <strong style="color:#fff">17,437 interacciones</strong>, con un promedio de <strong style="color:#fff">18.5 segundos por interacción</strong>. El 80 % de ese público está en el rango de 20 a 45 años.</p>
-  <p>La magnitud importa menos que la naturaleza: no es exposición pasiva, es permanencia voluntaria frente al producto. Y a diferencia de una estimación de aforo, <strong style="color:#fff">esta cifra es auditable</strong>.</p>
+  <h3>El stand retuvo a 36.3 % de los corredores inscritos en la carrera.</h3>
+  <p>De los <strong style="color:#fff">19,500 inscritos</strong> que pasaron por la expo a recoger su kit, <strong style="color:#fff">7,086 se detuvieron frente a la marca</strong> —poco más de uno de cada tres—. Generaron 17,437 interacciones y <strong style="color:#fff">36 h 24 min de atención acumulada</strong>, con 18.5 segundos por persona.</p>
+  <p>El dato no es la magnitud, es el denominador: como el kit solo se entregó aquí, <strong style="color:#fff">se conoce el universo completo</strong>. Rara vez un patrocinio permite saber qué fracción exacta de su audiencia objetivo alcanzó.</p>
 </div>
 
 <figure><div class="fw"><svg viewBox="0 0 1000 190" role="img" aria-label="Atención acumulada de 36 h 24 min, de las cuales la mayor parte proviene de los 1601 visitantes comprometidos.">
@@ -375,14 +386,18 @@ footer{border-top:3px solid transparent;
 <text x="575.9994963600567" y="116" font-family="IBM Plex Mono, monospace" font-size="12" fill="#6E7D9B">5,485 visitantes</text>
 <text x="0" y="182" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#6E7D9B" letter-spacing=".05em">REPARTO DERIVADO · LA ATENCIÓN TOTAL ES PRODUCTO DE DOS MEDICIONES DEL SISTEMA</text>
 </svg></div>
-<figcaption><b>La atención acumulada es el producto de dos lecturas del sistema</b> <span class="tag t-der">Derivado</span>: cerca de 17,437 contactos multiplicados por los 18.5 segundos de atención media. El reparto interno entre público comprometido y resto es una estimación construida sobre la distribución de engagement, no una medición directa del panel.</figcaption>
+<figcaption><b>La atención acumulada es la suma directa del tiempo de cada visitante</b> <span class="tag t-med">Medido</span>: 131,046 segundos repartidos entre 7,086 personas. El reparto interno entre público comprometido y resto se construye sobre la distribución de engagement medida.</figcaption>
 </figure>
+
+<p>Conviene sostener las dos cifras juntas. ASICS vistió a <strong>19,500 corredores</strong> —la playera oficial es, en términos de impresiones, el activo más grande de esta edición— y retuvo atención sostenida de <strong>1,601</strong>, el 8.2 % del total de inscritos. La presencia sobre el cuerpo del corredor ya estaba garantizada por contrato; lo que el stand añadió fue <em>contacto</em>, y ahí es donde queda margen.</p>
 
 <div class="tw"><table>
   <caption>Lo que entregó el patrocinio · dos días de expo</caption>
   <thead><tr><th>Dimensión</th><th>Resultado</th><th>Procedencia</th></tr></thead>
   <tbody>
     <tr><td>Alcance cualificado (personas distintas)</td><td class="n">7,086</td><td><span class="tag t-med">Medido</span></td></tr>
+    <tr><td>Corredores inscritos en la carrera</td><td class="n">19,500</td><td><span class="tag t-ref">Contexto</span></td></tr>
+    <tr><td>Penetración sobre el total de inscritos</td><td class="n">36.3 %</td><td><span class="tag t-der">Derivado</span></td></tr>
     <tr><td>Interacciones con la marca</td><td class="n">17,437</td><td><span class="tag t-med">Medido</span></td></tr>
     <tr><td>Frecuencia por persona</td><td class="n">2.46 ×</td><td><span class="tag t-med">Medido</span></td></tr>
     <tr><td>Atención media por interacción</td><td class="n">18.5 s</td><td><span class="tag t-med">Medido</span></td></tr>

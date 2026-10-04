@@ -170,6 +170,13 @@ figcaption b{color:var(--ink);font-weight:600}
 .verdict p + p{margin-top:.9em}
 .verdict .mono{color:#9FC2FF}
 
+/* Contexto del evento: marco que no es medición, visualmente distinto */
+.context-note{background:#F4F7FB;border-left:3px solid var(--line-strong,#c9d6e6);
+  padding:20px 24px;margin:4px 0 26px}
+.context-note p{font-size:16px;color:#3C4A5C;margin:0;max-width:72ch}
+.context-note p + p{margin-top:.7em}
+.context-note b{color:var(--ink)}
+
 /* Acciones */
 .acts{counter-reset:a;margin:0;padding:0;list-style:none}
 .act{counter-increment:a;display:grid;grid-template-columns:38px 1fr;gap:20px;
@@ -356,13 +363,21 @@ footer{border-top:3px solid transparent;
 <div class="status"><div class="wrap"><div><b>Cobertura:</b> 2 y 3 de octubre · completos</div><div><b>Medición:</b> Xpatial.ai</div><div><b>Base:</b> 7,086 visitantes · 17,437 contactos</div><div><b>Estado:</b> cifras finales consolidadas</div></div></div>
 <main><section><div class="wrap">
 <div class="sec-h"><div class="sec-tag">Lectura rápida</div>
-<div><h2 class="sec-t">7,086 personas se detuvieron frente al stand</h2><p class="sec-d">Cifras finales de los dos días de expo. El panel se leyó con la activación terminada y los registros ya consolidados: esto es lo que ocurrió, no una proyección.</p></div></div>
+<div><h2 class="sec-t">7,086 personas se detuvieron frente al stand</h2><p class="sec-d">Cifras finales de los dos días de expo, contadas sobre el registro completo de la medición: esto es lo que ocurrió, no una proyección.</p></div></div>
 <div class="body"><div class="sec-tag"></div><div>
+<div class="context-note">
+  <p><b>El marco.</b> Los 19,500 corredores inscritos recogieron su kit durante estos dos días: la expo fue <b>paso obligado</b> para todos ellos. Eso convierte la cifra en un denominador real y no en una audiencia estimada. Y por primera vez, ASICS no solo estuvo presente: <b>diseñó y vistió la playera oficial</b> de las cuatro distancias. La lluvia llegó el domingo de carrera, con la expo ya cerrada, así que nada de lo que sigue está afectado por el clima.</p>
+</div>
+
 <div class="verdict">
   <h3>El stand no tuvo un problema de tráfico. Tuvo un problema de primeros seis segundos.</h3>
   <p>De cada diez personas que pasaron, <strong style="color:#fff">siete se fueron antes del sexto segundo o no pasaron de quince</strong>. El tramo de fuga por sí solo son <strong style="color:#fff">3,633 personas</strong> que estuvieron físicamente frente a la marca y no encontraron un motivo para detenerse.</p>
   <p>Esos 3,633 son el margen que deja la edición de este año sobre la mesa. El problema no fue atraer gente: fue retenerla en los primeros pasos.</p>
 </div>
+
+<p>Con el universo a la vista, la cifra se lee distinta: <strong>36.3 % de los corredores inscritos se detuvo frente al stand</strong>. Poco más de uno de cada tres. Es una penetración alta para una superficie que compite con el resto de la expo en el mismo recorrido —pero significa también que <strong>12,414 personas pasaron por el recinto sin registrarse frente a la marca</strong>, aun llevando puesta una playera que ASICS diseñó.</p>
+
+<p>Ese contraste es la lectura central de este reporte: la marca vistió a 19,500 corredores y retuvo la atención sostenida de 1,601. El activo de marca ya estaba repartido; lo que faltó fue convertirlo en conversación en el piso.</p>
 
 <figure><div class="fw"><svg viewBox="0 0 1000 430" role="img" aria-label="Curvas de contactos y visitantes del stand en los dos días de expo. El viernes 2 de octubre la actividad se extiende de las 7 a las 19 horas con su mayor cresta a las 17. El sábado 3 de octubre el volumen es más alto y la cresta se adelanta a las 11 de la mañana. Ambos paneles comparten la misma escala vertical.">
 <g><line x1="60" y1="374" x2="978" y2="374" stroke="#001E62" stroke-width="1.5"/>
@@ -461,10 +476,10 @@ footer{border-top:3px solid transparent;
   <div><div class="r-num">18.5<span class="u"> s</span></div>
   <div class="r-lab">Attention time</div></div>
   <div class="r-body">
-    <p class="r-def"><b>Qué mide</b>La duración promedio del contacto del visitante con la superficie.</p>
+    <p class="r-def"><b>Qué mide</b>El tiempo total que cada visitante dedicó a la superficie, sumando todos sus contactos.</p>
     
-<p>18.5 segundos de atención promedio por interacción. Para contexto de categoría, la publicidad exterior digital se planea habitualmente en impactos de entre dos y seis segundos <span class="tag t-ref">Referencia</span>.</p>
-<p>Esto no es un impacto publicitario: sigue siendo <strong>un orden de magnitud superior</strong> a lo que se compra en medios. Conviene leerlo junto al volumen: a mayor afluencia, más gente de paso entra en el promedio y la media por interacción baja. Es el comportamiento esperable de un stand con tráfico alto, no una caída de interés.</p>
+<p>18.5 segundos de atención por persona. Para contexto de categoría, la publicidad exterior digital se planea habitualmente en impactos de entre dos y seis segundos <span class="tag t-ref">Referencia</span>.</p>
+<p>Esto no es un impacto publicitario: sigue siendo <strong>un orden de magnitud superior</strong> a lo que se compra en medios. Conviene leerlo junto al volumen: a mayor afluencia, más gente de paso entra en el promedio y la media baja. El contraste entre los dos días lo ilustra —el viernes, con menos tráfico, retuvo 20.7 s por persona; el sábado, más concurrido, 16.7 s.</p>
   </div>
 </div>
 
@@ -477,6 +492,7 @@ footer{border-top:3px solid transparent;
     
 <p><strong>1,601 de 7,086 personas superaron el umbral de interés real.</strong> Es casi una de cada cuatro, y en términos absolutos el grupo comprometido más grande que ha registrado esta activación: 1,601 personas dedicaron al stand más de quince segundos continuos.</p>
 <p>El dato que obliga a actuar es el del otro extremo: <strong>3,633 visitantes —el 51 %— no llegaron ni a seis segundos</strong>. Ese tramo es la pérdida concreta de la activación y el mayor margen de mejora para la edición siguiente.</p>
+<p>Con 3 zonas en el espacio, seis segundos no alcanzan para recorrer ninguna: es el tiempo de pasar de largo. La pregunta operativa para el próximo año no es cuánta gente llega —eso ya está resuelto— sino qué ocurre en los primeros pasos frente a la primera zona.</p>
   </div>
 </div>
 
@@ -544,7 +560,9 @@ footer{border-top:3px solid transparent;
 <figcaption><b>El bloque dominante son hombres de 30 a 45 años: 38 % del total.</b> Sumando a los hombres de 20 a 29, el 55 % de todo el público del stand son hombres de 20 a 45 años — el corazón demográfico del corredor de maratón.</figcaption>
 </figure>
 
-<p>El <strong>80 % del público tiene entre 20 y 45 años</strong>, el rango donde se concentra la compra de calzado de running de especialidad. Son <span class="tag t-der">Derivado</span> unas <strong>5,719 personas</strong> sobre un total de 7,086. La activación llegó a quien debía llegar.</p>
+<p>El <strong>80 % del público tiene entre 20 y 45 años</strong>, el rango donde se concentra la compra de calzado de running de especialidad. Son <span class="tag t-med">Medido</span> <strong>5,719 personas</strong> sobre un total de 7,086. La activación llegó a quien debía llegar.</p>
+
+<p>Ese perfil no es casual, y el entorno lo acompaña. La zona donde se levantó la expo <span class="tag t-ref">Contexto</span> tiene una <strong>edad promedio de 31 años</strong>, 14.5 años de escolaridad media —licenciatura iniciada— y 88 % de hogares conectados. Es un entorno urbano joven y escolarizado: exactamente el terreno donde el running de especialidad encuentra mercado. <em>Conviene leerlo como el entorno del recinto, no como el domicilio de los visitantes: en un maratón el público llega de toda la región.</em></p>
 
 <p>La composición por género es <strong>32 % mujeres y 68 % hombres</strong>; dentro del núcleo de 20 a 45 años, las mujeres son el 25 % del público total —unas 1,773 personas—. Es una proporción menor a la que hace esperar la participación femenina en un maratón mexicano, pero con una base de 7,086 visitantes la lectura ya es estable y la brecha es moderada, no un abismo.</p>
 

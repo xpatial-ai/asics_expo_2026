@@ -27,14 +27,29 @@ Los enlaces abren en el navegador. No requieren instalar nada ni iniciar sesión
 
 ---
 
+## El marco
+
+La Expo Maratón concentró la **entrega de kits** de los **19,500 corredores
+inscritos** en las cuatro distancias (5, 10, 21 y 42 km). Pasar por ahí no era
+opcional: quien no recogía su kit el 2 o el 3 de octubre, corría sin él. Eso
+convierte esa cifra en el **universo real** del stand, y permite medir qué
+fracción de él se detuvo efectivamente frente a la marca.
+
+Dos circunstancias más enmarcan la lectura:
+
+- **Por primera vez ASICS México diseñó y vistió la playera oficial** del evento.
+  La marca no solo tuvo presencia: vistió a los 19,500 participantes.
+- **La lluvia llegó el domingo de carrera, con la expo ya cerrada.** Ninguna
+  variación del 2 o el 3 de octubre es atribuible al clima.
+
 ## Lo que midió el stand
 
-Cifras de los **dos días de expo (2 y 3 de octubre)**, leídas del panel con el
-evento ya terminado:
+Cifras de los **dos días de expo (2 y 3 de octubre)**, contadas sobre el registro
+completo de la medición:
 
 | | |
 |---|---|
-| **7,086 personas** | se detuvieron frente al stand |
+| **7,086 personas** | se detuvieron frente al stand — **36.3 % de los 19,500 corredores inscritos** |
 | **17,437 interacciones** | registradas en total — cada visitante volvió 2.46 veces en promedio |
 | **18 s** | de atención por visitante |
 | **36 h 24 min** | de atención entregada, acumuladas |
@@ -97,6 +112,7 @@ visible en el documento:
 |---|---|
 | **Medido** | Contado sobre el registro de la medición. Dato duro, verificable registro a registro. |
 | **Derivado** | Calculado sobre cifras medidas, con la aritmética a la vista. |
+| **Contexto** | Dato del evento o del entorno que **no** proviene de la medición. Enmarca, no mide. |
 | **Referencia** | Contexto de categoría. **No** es medición de este evento. |
 
 Si una cifra no tiene etiqueta de medición, no es una medición. Esa regla se

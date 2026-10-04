@@ -170,6 +170,13 @@ figcaption b{color:var(--ink);font-weight:600}
 .verdict p + p{margin-top:.9em}
 .verdict .mono{color:#9FC2FF}
 
+/* Contexto del evento: marco que no es medición, visualmente distinto */
+.context-note{background:#F4F7FB;border-left:3px solid var(--line-strong,#c9d6e6);
+  padding:20px 24px;margin:4px 0 26px}
+.context-note p{font-size:16px;color:#3C4A5C;margin:0;max-width:72ch}
+.context-note p + p{margin-top:.7em}
+.context-note b{color:var(--ink)}
+
 /* Acciones */
 .acts{counter-reset:a;margin:0;padding:0;list-style:none}
 .act{counter-increment:a;display:grid;grid-template-columns:38px 1fr;gap:20px;
@@ -358,10 +365,14 @@ footer{border-top:3px solid transparent;
 <div class="sec-h"><div class="sec-tag">Los dos turnos</div>
 <div><h2 class="sec-t">La carga se reparte a lo largo del día, no en una sola franja</h2><p class="sec-d">Con los dos días cerrados ya se ve la forma real del turno: una meseta larga, no un pico estrecho. Eso cambia cómo se dimensiona el equipo.</p></div></div>
 <div class="body"><div class="sec-tag"></div><div>
+<div class="context-note">
+  <p><b>Por qué el piso se comportó así.</b> La expo fue el único punto de entrega de kits para los 19,500 inscritos, de modo que el flujo no lo marcó el atractivo del stand sino <b>el calendario de recogida</b>: quien no pasaba esos dos días, corría sin kit. El clima no interviene en la lectura —la lluvia llegó el domingo, con la expo ya cerrada—. Los dos días transcurrieron en condiciones normales.</p>
+</div>
+
 <div class="verdict">
   <h3>El stand trabajó 25 horas repartidas en dos días, con una meseta central que sostiene la mayor parte del flujo.</h3>
-  <p>No hubo una hora milagro: hubo <strong style="color:#fff">un bloque central amplio</strong> donde se concentra el grueso de los contactos, con apertura y cierre claramente más ligeros. El sábado además adelantó su cresta respecto del viernes.</p>
-  <p>Un equipo repartido de forma pareja a lo largo del turno <strong style="color:#fff">sobra en los extremos y queda corto en el centro</strong>.</p>
+  <p>No hubo una hora milagro: hubo <strong style="color:#fff">un bloque central amplio</strong> donde se concentra el grueso de los contactos, con apertura y cierre claramente más ligeros. Y las dos jornadas no son intercambiables: el viernes pica a las <strong style="color:#fff">17 h</strong>, el sábado a las <strong style="color:#fff">11 h</strong>.</p>
+  <p>Un equipo repartido de forma pareja a lo largo del turno <strong style="color:#fff">sobra en los extremos y queda corto en el centro</strong> —y si se calca el turno del viernes sobre el sábado, llega tarde a su propio pico.</p>
 </div>
 
 <figure><div class="fw"><svg viewBox="0 0 1000 260" role="img" aria-label="Franjas de carga operativa sumando los dos días. El tramo de 11:00 – 14:00 concentra la mayor carga, cerca del 37 por ciento de los contactos; la apertura y el cierre son más ligeros.">
@@ -388,8 +399,10 @@ footer{border-top:3px solid transparent;
 <text x="771.5" y="190.37168553264073" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#44547A">Baja</text>
 <text x="878.75" y="226" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#001E62" letter-spacing=".03em">17:00 – 20:00</text>
 <text x="878.75" y="244" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#6E7D9B">≈ 2,400 contactos</text></svg></div>
-<figcaption><b>Los conteos por franja son derivados de la curva del panel</b> <span class="tag t-der">Derivado</span>, sumando los dos días. Sirven para dimensionar turnos, no para reportar cifras. Con el evento cerrado, el reparto entre franjas ya es estable y puede usarse como plantilla de staffing.</figcaption>
+<figcaption><b>Conteo de visitantes por franja</b> <span class="tag t-med">Medido</span>, sumando los dos días. Con el registro completo, el reparto entre franjas es estable y puede usarse directamente como plantilla de staffing para la edición siguiente.</figcaption>
 </figure>
+
+<p>Hay un segundo hallazgo que no se ve en el volumen. El sábado llevó <strong>28 % más gente</strong> que el viernes, pero el viernes <strong>retuvo mejor</strong>: 20.7 segundos de atención por persona frente a 16.7 del sábado. Es el patrón esperable de una jornada saturada —a más cola frente al kit, menos disposición a detenerse—, y sugiere que el límite del sábado no fue el interés del público sino <em>la capacidad de atender</em>.</p>
 
 <div class="tw"><table>
   <caption>Plan de piso para la edición siguiente</caption>
