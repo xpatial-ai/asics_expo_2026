@@ -1,5 +1,5 @@
 # Stand ASICS · Expo Maratón Querétaro 2026
-### Medición de audiencia — lectura del primer día
+### Medición de audiencia — resultado final de los dos días
 
 Durante la Expo Maratón del Querétaro Maratón 2026, el stand de ASICS fue
 instrumentado con medición de audiencia por visión computacional. Por primera
@@ -15,9 +15,9 @@ tres lectores distintos.
 
 | | Reporte | Para quién | La pregunta que responde |
 |---|---|---|---|
-| **01** | [**El primer día del stand, leído con los datos a la mano**](https://xpatial-ai.github.io/asics_expo_2026/01-marketing-brand.html) | Marketing · Brand ASICS México | ¿Qué significa cada indicador en lenguaje de marca y qué ajustamos antes de que cierre la expo? |
+| **01** | [**Los dos días del stand, leídos con los datos cerrados**](https://xpatial-ai.github.io/asics_expo_2026/01-marketing-brand.html) | Marketing · Brand ASICS México | ¿Qué significa cada indicador en lenguaje de marca y qué cambiamos en la edición siguiente? |
 | **02** | [**Qué compró ASICS al patrocinar la Expo Maratón**](https://xpatial-ai.github.io/asics_expo_2026/02-direccion-ejecutiva.html) | Dirección ejecutiva · Patrocinio | ¿Qué recibimos realmente por el patrocinio y qué decidimos para la edición siguiente? |
-| **03** | [**Plan de piso para el viernes, escrito desde los datos del jueves**](https://xpatial-ai.github.io/asics_expo_2026/03-operacion-stand.html) | Agencia · Operación del stand | ¿Qué cambiamos mañana en el piso, con el equipo que ya está ahí? |
+| **03** | [**Plan de piso para la próxima expo, escrito desde los dos días medidos**](https://xpatial-ai.github.io/asics_expo_2026/03-operacion-stand.html) | Agencia · Operación del stand | ¿Cómo dimensionamos el equipo por franja la próxima vez? |
 
 Los enlaces abren en el navegador. No requieren instalar nada ni iniciar sesión.
 
@@ -29,26 +29,31 @@ Los enlaces abren en el navegador. No requieren instalar nada ni iniciar sesión
 
 ## Lo que midió el stand
 
-Cifras del **2 de octubre**, leídas del panel de medición:
+Cifras de los **dos días de expo (2 y 3 de octubre)**, leídas del panel con el
+evento ya terminado:
 
 | | |
 |---|---|
-| **669 personas** | se detuvieron frente al stand |
-| **≈ 1,560 interacciones** | registradas en total — cada visitante volvió 2.3 veces en promedio |
-| **≈ 1 min 36 s** | de atención por visitante |
-| **≈ 17 h 46 min** | de atención entregada, acumuladas |
-| **34 %** | se quedó más de 15 segundos: atención real, no paso casual |
-| **77 %** | del público tiene entre 20 y 45 años — el corredor objetivo |
+| **7,086 personas** | se detuvieron frente al stand |
+| **≈ 18,500 interacciones** | registradas en total — cada visitante volvió 2.6 veces en promedio |
+| **≈ 47 s** | de atención por visitante |
+| **≈ 92 h 30 min** | de atención entregada, acumuladas |
+| **23 %** | se quedó más de 15 segundos: 1,601 personas con atención real |
+| **80 %** | del público tiene entre 20 y 45 años — el corredor objetivo |
 
-Y un dato que vale tanto como los anteriores: **279 personas —el 42 %— se fueron
-antes del sexto segundo.** Ese es el margen de mejora más accesible del stand, y
-el reporte 03 explica dónde se está perdiendo.
+Y un dato que vale tanto como los anteriores: **3,633 personas —el 51 %— se
+fueron antes del sexto segundo.** Ese es el margen de mejora más accesible del
+stand, y el reporte 03 explica dónde se perdió.
 
-> **Estas cifras son un piso.** El sistema sigue incorporando registros de la
-> jornada: lecturas sucesivas del mismo rango horario arrojaron volúmenes
-> crecientes a lo largo del día. La cifra definitiva se fijará con el evento
-> cerrado y los datos estabilizados. Las interacciones, además, las reporta el
-> panel redondeadas: el valor real está entre 1,550 y 1,572.
+> **Estas cifras son definitivas.** Se leyeron el 4 de octubre, con los dos días
+> de expo terminados y el panel ya consolidado. No están sujetas a revisión.
+> Las interacciones las reporta el panel redondeadas (`18.5 K`): el valor real
+> está entre 18,450 y 18,550.
+
+> **Nota sobre cifras anteriores.** Si recibió un avance con números del 2 de
+> octubre (del orden de cientos de visitantes), quedó superado por esta lectura.
+> Aquellas capturas se tomaron con la expo en curso, mientras el sistema aún
+> incorporaba registros, y subestimaban el resultado real de forma considerable.
 
 ---
 
@@ -66,12 +71,12 @@ el reporte 03 explica dónde se está perdiendo.
 
 Conviene ser claro con el alcance, porque define cómo leer las conclusiones:
 
-- La captura cubre **el primer día de expo, con el panel aún consolidando
-  registros**. Corte: 2 de octubre, 1:43 p.m. **El día 2 de expo y el domingo de
-  carrera no están incluidos.** Las cifras pueden revisarse al alza.
-- Por la misma razón, **no conviene comparar dos días con distinto grado de
-  consolidación**: un día ya cerrado contra otro aún cargándose exagera la
-  diferencia a favor del primero.
+- La captura cubre **los dos días de expo completos**. Corte: 4 de octubre,
+  11:39 a.m. **El domingo de carrera no está incluido**, porque el stand no
+  operó esa jornada.
+- El **reparto entre viernes y sábado es derivado**, no medido por separado: el
+  panel entrega los totales de los dos días juntos y la proporción se reconstruye
+  desde la curva horaria. Sirve como orden de magnitud, no como cifra exacta.
 - **No hubo datos de ventas, registro de leads ni costo del stand**, por lo que
   el retorno se expresa en atención y alcance cualificado, no en pesos. El
   reporte 02 declara este límite de forma explícita.
@@ -93,7 +98,6 @@ visible en el documento:
 | **Medido** | Leído directamente del panel. Dato duro. |
 | **Estimado** | Reconstruido a partir de un valor que el panel reporta redondeado. Se declara el rango posible. |
 | **Derivado** | Calculado sobre cifras medidas, con la aritmética a la vista. |
-| **Proyección** | Supone que el ritmo observado se sostiene. Declara su supuesto. |
 | **Referencia** | Contexto de categoría. **No** es medición de este evento. |
 
 Si una cifra no tiene etiqueta de medición, no es una medición. Esa regla se
@@ -112,13 +116,16 @@ reportes es atribuible a una persona concreta.
 
 ## Siguiente paso recomendado
 
-Lo medido hasta ahora es **un día, y todavía parcial**. El viernes de expo y el
-domingo de carrera concentran la mayor afluencia del calendario y todavía no están
-instrumentados. Extender la captura a esas dos jornadas convierte tres días
-sueltos en la curva completa del patrocinio —que es el activo que sirve para
-negociar la edición siguiente. Es el primero de los tres asuntos que plantea el
-reporte 02, y no admite demora: lo que no se mide el viernes no se recupera
-después.
+La activación de expo quedó medida de principio a fin. Con eso, ASICS tiene por
+primera vez una **línea base propia**: 7,086 personas y ≈ 92 h 30 min de atención
+sobre un público 80 % dentro del rango 20–45. Es la cifra contra la cual se puede
+evaluar la edición siguiente y la que corresponde llevar a la negociación con la
+organización del maratón.
+
+Queda una sola pieza fuera del registro: **el domingo de carrera**, donde el
+stand no operó. Si la activación se extiende a esa jornada, medirla cierra la
+curva completa del patrocinio. Los tres asuntos que plantea el reporte 02 parten
+de aquí.
 
 ---
 
